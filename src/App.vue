@@ -1,8 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { logger } from "@kirklin/logger";
+
+logger.info("I'm ready!  ⸜(๑'ᵕ'๑)⸝⋆*");
+</script>
 
 <template>
-  <n-config-provider>
-    <RouterView />
-  </n-config-provider>
+  <RouterView />
 </template>
-

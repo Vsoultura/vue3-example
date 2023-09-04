@@ -3,7 +3,7 @@ const router = useRouter();
 
 const testStore = () => {
   router.push({
-    name: 'StoreTest'
+    name: "StoreTest",
   });
 };
 </script>
@@ -16,9 +16,15 @@ const testStore = () => {
     />
     <div class="hero-content text-center">
       <div class="max-w-md">
-        <h1 class="mb-5 text-5xl font-bold">Vite Boot</h1>
-        <p class="mb-5">Mocking up web app with Vite-Boot <sup>(speed)</sup></p>
-        <button class="btn-primary btn" @click="testStore">Test Store</button>
+        <h1 class="mb-5 text-5xl font-bold">
+          Vite Boot
+        </h1>
+        <p class="mb-5">
+          Mocking up web app with Vite-Boot <sup>(speed)</sup>
+        </p>
+        <button class="btn-primary btn" @click="testStore">
+          Test Store
+        </button>
       </div>
     </div>
   </div>

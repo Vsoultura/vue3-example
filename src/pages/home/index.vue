@@ -1,12 +1,15 @@
 <script setup lang="ts">
+import Hero from "./components/Hero.vue";
+import StoreTest from "./components/StoreTest.vue";
+
 defineOptions({
-  name: 'HomeItem'
+  name: "Home",
 });
 </script>
 
 <template>
-  <div>数据治理</div>
+  <Hero />
+  <StoreTest />
 </template>
 
 <style scoped></style>
-

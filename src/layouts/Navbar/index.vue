@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import ThemeChange from './components/ThemeChange/index.vue';
-import LocalesChange from './components/LocalesChange/index.vue';
-import UnoCSSIconButton from '~/components/Icon/UnoCSSIconButton.vue';
+import ThemeChange from "./components/ThemeChange/index.vue";
+import LocalesChange from "./components/LocalesChange/index.vue";
+import UnoCSSIconButton from "~/components/Icon/UnoCSSIconButton.vue";
 
 defineOptions({
-  name: 'Navbar'
+  name: "Navbar",
 });
 </script>
 
@@ -24,9 +24,7 @@ defineOptions({
             class="inline-flex text-lg text-primary transition-all duration-200 md:text-3xl"
           >
             <span class="text-accent">V<span class="lowercase">ite</span></span>
-            <span class="text-base-content"
-              >B<span class="lowercase">oot</span></span
-            >
+            <span class="text-base-content">B<span class="lowercase">oot</span></span>
           </div>
         </RouterLink>
       </div>
